@@ -11,7 +11,7 @@ $(window).bind("load resize scroll",function(e) {
 });
 
 var map;
-var center = new google.maps.LatLng(34.729962, -86.596517);
+var center = new google.maps.LatLng(8.886162, -78.136299);
 
 var MY_MAPTYPE_ID = 'custom_style';
 
@@ -125,11 +125,10 @@ function initialize() {
 var markers = [];
 var marker = [];
 var iterator = 0;
-
 var lodging_options = [
-  new google.maps.LatLng(34.733998, -86.589170), //Roundhouse
-  new google.maps.LatLng(34.725202, -86.589586), //Embassy
-  new google.maps.LatLng(34.723880, -86.593765)  //Spring Hill
+  new google.maps.LatLng(8.886162, -78.136299), //Roundhouse
+  new google.maps.LatLng(8.886162, -78.136299), //Embassy
+  new google.maps.LatLng(8.886162, -78.136299)  //Spring Hill
 ];
 
 var pin_url = [
